@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MaGaShiu Nails — Salón de belleza profesional. Uñas, pestañas, cabello, maquillaje y más. Agenda tu cita por WhatsApp." />
+  <meta name="theme-color" content="#C97B98" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="MaGaShiu Nails — Tu Belleza en Nuestras Manos" />
+  <meta property="og:description" content="Salón de belleza profesional. Uñas, pestañas, cabello, maquillaje y más." />
+  <meta property="og:type" content="website" />
+
+  <title>MaGaShiu Nails — Tu Belleza en Nuestras Manos</title>
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============================================
+       NAVBAR
+  ============================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <nav class="navbar__inner">
+
+        <a href="#inicio" class="navbar__logo">
+          <img src="images/logo.png"
+               alt="MaGaShiu Salón — Tu Belleza en Nuestras Manos"
+               class="navbar__logo-img" />
+        </a>
+
+        <ul class="navbar__nav" id="navMenu">
+          <li><a class="navbar__link" href="#servicios">Servicios</a></li>
+          <li><a class="navbar__link" href="#pestanas">Pestañas</a></li>
+          <li><a class="navbar__link" href="#galeria">Galería</a></li>
+          <li><a class="navbar__link" href="#nosotras">Nosotras</a></li>
+          <li>
+            <a class="btn btn--whatsapp navbar__cta"
+               href="https://wa.me/527223143801?text=Hola,%20me%20gustar%C3%ADa%20agendar%20una%20cita"
+               target="_blank" rel="noopener noreferrer">
+              Agendar Cita
+            </a>
+          </li>
+        </ul>
+
+        <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- ============================================
+       HERO
+  ============================================ -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg"></div>
+
+    <div class="container">
+      <div class="hero__content">
+
+        <div class="hero__logo-mark fade-in">
+          <img src="images/logo.png"
+               alt="MaGaShiu Salón"
+               class="hero__logo-img" />
+        </div>
+
+        <div class="hero__badge fade-in">
+          <span class="hero__badge-dot"></span>
+          Agenda Disponible Esta Semana
+        </div>
+
+        <h1 class="hero__title fade-in delay-1">
+          Tu Belleza,
+          <em>Nuestra Pasión</em>
+        </h1>
+
+        <p class="hero__slogan fade-in delay-2">
+          "Donde cada detalle es una obra de arte"
+        </p>
+
+        <p class="hero__desc fade-in delay-3">
+          En MaGaShiu Nails te ofrecemos experiencias de belleza únicas: uñas esculturales,
+          pestañas de alta definición, cabello transformado y maquillaje profesional.
+          Todo con las mejores técnicas y productos premium.
+        </p>
+
+        <div class="hero__actions fade-in delay-4">
+          <a class="btn btn--primary"
+             href="https://wa.me/527223143801?text=Hola,%20me%20gustar%C3%ADa%20agendar%20una%20cita"
+             target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Agendar por WhatsApp
+          </a>
+          <a class="btn btn--secondary" href="#servicios">
+            Ver Servicios
+          </a>
+        </div>
+
+        <div class="hero__stats fade-in delay-5">
+          <div class="hero__stat">
+            <div class="hero__stat-number">500+</div>
+            <div class="hero__stat-label">Clientas Felices</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number">8+</div>
+            <div class="hero__stat-label">Años de Experiencia</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number">15+</div>
+            <div class="hero__stat-label">Servicios Disponibles</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Visual decorativo desktop -->
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__img-grid">
+        <div class="hero__img-card hero__img-card--nails" style="background: linear-gradient(135deg,#F4A7B9,#C97B98,#7B1F3A);">
+          <img src="images/hero-nails.jpeg"
+               alt="Uñas esculturales rosa pastel de MaGaShiu Nails"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+        <div class="hero__img-card" style="background: linear-gradient(135deg,#C97B98,#7B1F3A);">
+          <img src="images/hero-lashes.jpeg"
+               alt="Extensiones de pestañas volumen"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+        <div class="hero__img-card" style="background: linear-gradient(135deg,#D4AF8A,#C49A72);">
+          <img src="images/hero-hair.jpeg"
+               alt="Cabello estilizado con balayage"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ============================================
+       SERVICIOS
+  ============================================ -->
+  <section class="section" id="servicios">
+    <div class="container">
+
+      <div class="section-header text-center fade-in">
+        <p class="section-label">Nuestros Servicios</p>
+        <h2 class="section-title">Todo lo que necesitas<br>en un solo lugar</h2>
+        <div class="gold-divider gold-divider--center"></div>
+        <p class="section-subtitle">
+          Técnicas profesionales con los mejores productos del mercado.
+          Cada servicio diseñado para realzar tu belleza natural.
+        </p>
+      </div>
+
+      <!-- Tabs de categorías -->
+      <div class="services-categories fade-in">
+        <button class="category-tab active" data-filter="all">Todos</button>
+        <button class="category-tab" data-filter="nails">Uñas</button>
+        <button class="category-tab" data-filter="pedicure">Pedicura</button>
+        <button class="category-tab" data-filter="hair">Cabello</button>
+        <button class="category-tab" data-filter="makeup">Maquillaje</button>
+        <button class="category-tab" data-filter="wax">Depilación &amp; Más</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+
+        <!-- MANICURA -->
+        <div class="service-card fade-in" data-category="nails">
+          <div class="service-card__icon">💅</div>
+          <p class="service-card__category">Manicura</p>
+          <h3 class="service-card__title">Manicura Rusa &amp; Técnicas</h3>
+          <p class="service-card__desc">Esmaltado de alta duración con gel vitamínico y calcio. Incluye hidratación profunda, diseño personalizado y productos premium que cuidan tu uña natural.</p>
+          <ul class="service-list">
+            <li>Manicura Rusa Spa con Gel Vitamínico y Calcio</li>
+            <li>Manicura Rusa con Gel Vitamínico y Color</li>
+            <li>Manicura Rusa con Gel Color y Diseño</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20manicura" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+        <!-- TÉCNICAS DE UÑAS -->
+        <div class="service-card fade-in delay-1" data-category="nails">
+          <div class="service-card__icon">✨</div>
+          <p class="service-card__category">Técnicas Especializadas</p>
+          <h3 class="service-card__title">Uñas Esculturales</h3>
+          <p class="service-card__desc">Del #1 al #3 de largo. Contamos con las técnicas más avanzadas del mercado, adaptadas a tu tipo de uña, estilo de vida y preferencia estética.</p>
+          <ul class="service-list">
+            <li>Técnica Esculturales</li>
+            <li>Sistema Building Gel Nivelación</li>
+            <li>Acrílicas</li>
+            <li>Dipping u Acrisoft</li>
+            <li>Técnica Rubber</li>
+            <li>Soft Gel (capa Boulder)</li>
+            <li>Polygel</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20t%C3%A9cnicas%20de%20u%C3%B1as" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+        <!-- PEDICURA -->
+        <div class="service-card fade-in delay-2" data-category="pedicure">
+          <div class="service-card__icon">🦶</div>
+          <p class="service-card__category">Pedicura</p>
+          <h3 class="service-card__title">Pedicura Profesional</h3>
+          <p class="service-card__desc">Tratamientos completos que combinan cuidado, salud y embellecimiento de tus pies. Desde una experiencia relajante tipo spa hasta tratamientos específicos.</p>
+          <ul class="service-list">
+            <li>Pedicura Spa (experiencia completa)</li>
+            <li>Pedicure Tradicional</li>
+            <li>Pedicura Tradicional con Acripie</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20pedicura" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+        <!-- CEJAS -->
+        <div class="service-card fade-in" data-category="nails">
+          <div class="service-card__icon">🪡</div>
+          <p class="service-card__category">Cejas</p>
+          <h3 class="service-card__title">Diseño de Cejas</h3>
+          <p class="service-card__desc">Realza tu mirada con cejas perfectamente definidas. Ofrecemos desde técnicas de mantenimiento hasta procedimientos semi-permanentes de alta definición.</p>
+          <ul class="service-list">
+            <li>Planchado + Diseño + Depilación</li>
+            <li>Microblading — pelo a pelo semi-permanente</li>
+            <li>Microshading — efecto polvo semi-permanente</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20dise%C3%B1o%20de%20cejas" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+        <!-- CABELLO -->
+        <div class="service-card fade-in delay-1" data-category="hair">
+          <div class="service-card__icon">💇</div>
+          <p class="service-card__category">Cabello</p>
+          <h3 class="service-card__title">Tratamientos Capilares</h3>
+          <p class="service-card__desc">Transformamos tu cabello con técnicas expertas. Desde cortes y limpiezas capilares hasta keratinas, tintes personalizados y peinados para cada ocasión.</p>
+          <ul class="service-list">
+            <li>Corte de Cabello Dama</li>
+            <li>Limpieza Capilar (eliminación de puntas dañadas)</li>
+            <li>Shot de Keratina Proteínica</li>
+            <li>Alaciado Semipermanente con Keratina</li>
+            <li>Tintes, Efectos de Color y Mechas</li>
+            <li>Extensiones de Cabello</li>
+            <li>Risos Semipermanentes</li>
+            <li>Peinados para toda ocasión</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20tratamientos%20de%20cabello" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+        <!-- MAQUILLAJE -->
+        <div class="service-card fade-in delay-2" data-category="makeup">
+          <div class="service-card__icon">💄</div>
+          <p class="service-card__category">Maquillaje Profesional</p>
+          <h3 class="service-card__title">Maquillaje para toda ocasión</h3>
+          <p class="service-card__desc">Desde un look rápido y natural hasta el glamour de una boda. Nuestras expertas en maquillaje logran el acabado perfecto que mereces en cada momento especial.</p>
+          <ul class="service-list">
+            <li>Maquillaje Express</li>
+            <li>Maquillaje Social</li>
+            <li>Maquillaje de Quinceañera</li>
+            <li>Maquillaje de Novia</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20maquillaje%20profesional" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+        <!-- DEPILACIÓN & BIENESTAR -->
+        <div class="service-card fade-in delay-3" data-category="wax">
+          <div class="service-card__icon">🌿</div>
+          <p class="service-card__category">Depilación &amp; Bienestar</p>
+          <h3 class="service-card__title">Cuerpo y Bienestar</h3>
+          <p class="service-card__desc">Depilación precisa en zonas faciales y corporales, más masajes terapéuticos que combinan relajación profunda con resultados reductivos visibles.</p>
+          <ul class="service-list">
+            <li>Depilación facial (bozo, patillas)</li>
+            <li>Depilación corporal (axilas, piernas)</li>
+            <li>Masajes Relajantes y Descontracturantes</li>
+            <li>Masajes Reductivos</li>
+          </ul>
+          <a class="service-card__cta" href="https://wa.me/527223143801?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20depilaci%C3%B3n%20y%20bienestar" target="_blank" rel="noopener noreferrer">Solicitar información</a>
+        </div>
+
+      </div><!-- /services-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       PESTAÑAS — TABLA DE PRECIOS
+  ============================================ -->
+  <section class="section section--alt" id="pestanas">
+    <div class="container">
+
+      <div class="section-header text-center fade-in">
+        <p class="section-label">Extensiones de Pestañas</p>
+        <h2 class="section-title">Pestañas que hablan<br>por ti</h2>
+        <div class="gold-divider gold-divider--center"></div>
+        <p class="section-subtitle">
+          Más de 12 técnicas disponibles para todo tipo de mirada.
+          Disponibles en aplicación completa y retoque a los 10–15 días.
+        </p>
+      </div>
+
+      <div class="lash-groups fade-in">
+
+        <div class="lash-group">
+          <p class="lash-group__label">Efecto Natural</p>
+          <div class="lash-chips">
+            <span class="lash-chip">Clásicas</span>
+            <span class="lash-chip">Rímel</span>
+            <span class="lash-chip">Híbridas</span>
+          </div>
+        </div>
+
+        <div class="lash-group">
+          <p class="lash-group__label">Volumen y Densidad</p>
+          <div class="lash-chips">
+            <span class="lash-chip">Volumen Egipcio 5DW</span>
+            <span class="lash-chip">Volumen Egipcio 6DW</span>
+            <span class="lash-chip">Volumen Griego 3DW</span>
+            <span class="lash-chip">Volumen 7DW</span>
+            <span class="lash-chip lash-chip--featured">Volumen Ruso</span>
+          </div>
+        </div>
+
+        <div class="lash-group">
+          <p class="lash-group__label">Estilos Especiales</p>
+          <div class="lash-chips">
+            <span class="lash-chip">Hawaiana Y Y</span>
+            <span class="lash-chip">Aura</span>
+            <span class="lash-chip">Wispy</span>
+            <span class="lash-chip">Foxy Clásicas L/M</span>
+            <span class="lash-chip">Foxy Bratz</span>
+          </div>
+        </div>
+
+        <div class="lash-group">
+          <p class="lash-group__label">Servicios Complementarios</p>
+          <div class="lash-chips">
+            <span class="lash-chip lash-chip--muted">Retiro de Pestañas</span>
+            <span class="lash-chip lash-chip--muted">Diseño con Color</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="lash-note fade-in">
+        <span style="font-size: 1.2rem; flex-shrink: 0;">💡</span>
+        <p>
+          <strong>¿No sabes cuál elegir?</strong> Contáctanos por WhatsApp y te asesoramos
+          según la forma de tus ojos, el efecto que deseas y tu estilo de vida.
+          ¡La primera consulta es gratis!
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       GALERÍA
+  ============================================ -->
+  <section class="section" id="galeria">
+    <div class="container">
+
+      <div class="section-header text-center fade-in">
+        <p class="section-label">Nuestros Trabajos</p>
+        <h2 class="section-title">Galería de Resultados</h2>
+        <div class="gold-divider gold-divider--center"></div>
+        <p class="section-subtitle">
+          Cada trabajo es una obra de arte. Próximamente aquí verás nuestros mejores resultados.
+        </p>
+      </div>
+
+      <div class="gallery-grid fade-in">
+
+        <div class="gallery-item gallery-item--nails">
+          <img src="images/gallery-nails.jpeg"
+               alt="Uñas esculturales con nail art en MaGaShiu"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" />
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__label">Uñas Esculturales</span>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--lashes">
+          <img src="images/gallery-lashes.jpeg"
+               alt="Extensiones de pestañas Volumen Ruso"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" />
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__label">Pestañas Volumen Ruso</span>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--makeup">
+          <img src="images/gallery-makeup.jpeg"
+               alt="Maquillaje profesional de novia"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" />
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__label">Maquillaje Novia</span>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--hair">
+          <img src="images/gallery-hair.jpeg"
+               alt="Tintes y efectos de color de cabello"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" />
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__label">Tintes y Efectos de Color</span>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--brows">
+          <img src="images/gallery-brows.jpeg"
+               alt="Diseño y microblading de cejas"
+               loading="lazy"
+               style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" />
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__label">Diseño de Cejas</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="gallery-cta fade-in">
+        <a class="btn btn--secondary"
+           href="https://wa.me/527223143801?text=Hola,%20me%20gustar%C3%ADa%20ver%20m%C3%A1s%20trabajos%20de%20MaGaShiu"
+           target="_blank" rel="noopener noreferrer">
+          Ver más en Instagram / WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SOBRE NOSOTRAS
+  ============================================ -->
+  <section class="section section--alt" id="nosotras">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about__visual fade-in-left">
+          <div class="about__img-main" style="padding:0;">
+            <img src="images/about-salon.jpeg"
+                 alt="Interior del salón MaGaShiu Nails — atmósfera elegante y profesional"
+                 loading="lazy"
+                 style="width:100%;height:100%;object-fit:cover;" />
+          </div>
+          <div class="about__img-badge">
+            <div class="about__badge-number">8+</div>
+            <div class="about__badge-text">Años de<br>Experiencia</div>
+          </div>
+        </div>
+
+        <div class="fade-in-right">
+          <p class="section-label">Sobre Nosotras</p>
+          <h2 class="section-title">Belleza con<br>dedicación y amor</h2>
+          <div class="gold-divider"></div>
+
+          <p style="color: var(--color-text-muted); line-height: 1.9; margin-bottom: var(--space-5); font-size: var(--text-base);">
+            En <strong style="color: var(--color-dark);">MaGaShiu Nails</strong> somos un equipo de profesionales
+            apasionadas por la belleza. Nos especializamos en técnicas de vanguardia para uñas,
+            pestañas, cabello y maquillaje, siempre con los mejores productos del mercado.
+          </p>
+          <p style="color: var(--color-text-muted); line-height: 1.9; margin-bottom: var(--space-8); font-size: var(--text-base);">
+            Cada clienta que llega a nuestro salón recibe atención personalizada y un
+            resultado que supera expectativas. Tu satisfacción es nuestro mayor logro.
+          </p>
+
+          <div class="about__values">
+            <div class="about__value">
+              <div class="about__value-icon">🏆</div>
+              <div>
+                <div class="about__value-title">Calidad Premium</div>
+                <div class="about__value-desc">Usamos solo productos de las mejores marcas</div>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">🎓</div>
+              <div>
+                <div class="about__value-title">Técnicas Certificadas</div>
+                <div class="about__value-desc">Capacitación continua en nuevas tendencias</div>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">✨</div>
+              <div>
+                <div class="about__value-title">Higiene Total</div>
+                <div class="about__value-desc">Protocolos de esterilización en cada servicio</div>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">💕</div>
+              <div>
+                <div class="about__value-title">Atención Personalizada</div>
+                <div class="about__value-desc">Escuchamos tus gustos y los hacemos realidad</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       CTA FINAL
+  ============================================ -->
+  <section class="section cta-section" id="contacto">
+    <div class="container">
+      <div class="cta-inner fade-in">
+
+        <p class="section-label">¿Lista para tu transformación?</p>
+        <h2 class="section-title">Agenda tu cita hoy</h2>
+        <div class="gold-divider gold-divider--center"></div>
+
+        <p class="section-subtitle">
+          Escríbenos por WhatsApp y te atendemos de inmediato.
+          Tenemos disponibilidad esta semana.
+        </p>
+
+        <a class="btn btn--gold"
+           href="https://wa.me/527223143801?text=Hola,%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20MaGaShiu%20Nails"
+           target="_blank" rel="noopener noreferrer"
+           style="font-size: var(--text-base); padding: var(--space-5) var(--space-10);">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Enviar Mensaje por WhatsApp
+        </a>
+
+        <div class="cta-contact-info">
+          <div class="cta-phone">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: var(--color-gold);">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            722 314 3801
+          </div>
+          <div class="cta-hours">Lunes a Sábado · 9:00 am – 7:00 pm</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       FOOTER
+  ============================================ -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <div>
+          <img src="images/logo.png"
+               alt="MaGaShiu Salón"
+               class="footer__logo-img"
+               loading="lazy" />
+          <p class="footer__brand-desc">
+            Salón de belleza profesional dedicado a realzar tu belleza natural
+            con técnicas de vanguardia y atención personalizada.
+          </p>
+          <div class="footer__social">
+            <a class="footer__social-link"
+               href="https://wa.me/527223143801"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+            <a class="footer__social-link"
+               href="#"
+               aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+              </svg>
+            </a>
+            <a class="footer__social-link"
+               href="#"
+               aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Servicios</p>
+          <ul class="footer__links">
+            <li><a class="footer__link" href="#servicios">Uñas &amp; Manicura</a></li>
+            <li><a class="footer__link" href="#pestanas">Pestañas</a></li>
+            <li><a class="footer__link" href="#servicios">Cabello</a></li>
+            <li><a class="footer__link" href="#servicios">Maquillaje</a></li>
+            <li><a class="footer__link" href="#servicios">Cejas</a></li>
+            <li><a class="footer__link" href="#servicios">Depilación</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Contacto</p>
+          <ul class="footer__links">
+            <li>
+              <a class="footer__link"
+                 href="https://wa.me/527223143801"
+                 target="_blank" rel="noopener noreferrer">
+                WhatsApp: 722 314 3801
+              </a>
+            </li>
+            <li><span class="footer__link">Lun – Sáb: 9am – 7pm</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2025 MaGaShiu Nails. Todos los derechos reservados.</span>
+        <span>Diseño web profesional</span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ============================================
+       WHATSAPP FLOTANTE
+  ============================================ -->
+  <a class="whatsapp-float"
+     href="https://wa.me/527223143801?text=Hola,%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20MaGaShiu%20Nails"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <span class="whatsapp-pulse"></span>
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-float-text">Agendar Cita</span>
+  </a>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
